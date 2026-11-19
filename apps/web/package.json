@@ -5,7 +5,7 @@
   "description": "BaoCut web client, served by the Runtime's web service",
   "type": "module",
   "scripts": {
-    "build": "vite build"
+    "build": "node init && vite build"
   },
   "dependencies": {
     "@baocut/protocol": "*",

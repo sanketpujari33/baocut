@@ -3,11 +3,11 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
-    "dev": "vite",
-    "build": "node build/build.mjs",
+    "dev": "node init && vite",
+    "build": "node init && node build/build.mjs",
     "watch": "node build/build.mjs --watch",
     "test": "node --test app/*.test.js build/*.test.cjs",
-    "build:spectrum": "node vendor/react-spectrum-s2/build/build.mjs && npm run build"
+    "build:spectrum": "node init && node vendor/react-spectrum-s2/build/build.mjs && npm run build"
   },
   "devDependencies": {
     "@react-spectrum/ai": "0.4.0",

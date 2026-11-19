@@ -6,10 +6,10 @@
   "main": "out/main/index.js",
   "scripts": {
     "predev": "install-electron",
-    "dev": "node tools/dev-runner.mjs",
-    "build": "electron-vite build",
+    "dev": "node init && node tools/dev-runner.mjs",
+    "build": "node init && electron-vite build",
     "prestart": "install-electron",
-    "start": "electron-vite preview"
+    "start": "node init && electron-vite preview"
   },
   "dependencies": {
     "@baocut/client": "*",

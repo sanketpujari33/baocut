@@ -5,7 +5,7 @@
   "description": "Slides editor page served by the Runtime, built from @baocut/slides-runtime",
   "type": "module",
   "scripts": {
-    "build": "node build.mjs"
+    "build": "node init && node build.mjs"
   },
   "dependencies": {
     "@baocut/slides": "*",

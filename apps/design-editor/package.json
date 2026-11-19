@@ -5,7 +5,7 @@
   "description": "Design (canvas) editor page served by the Runtime, built from @baocut/design-runtime",
   "type": "module",
   "scripts": {
-    "build": "node build.mjs"
+    "build": "node init && node build.mjs"
   },
   "dependencies": {
     "@baocut/design": "*",
